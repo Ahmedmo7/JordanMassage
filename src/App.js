@@ -1,15 +1,11 @@
 import React from 'react';
-import NavBar from './components/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './components/Footer';
+
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import MassageServices from './components/MassageServices';
 
 function App() {
     return (
-        <>
             <div>
-                <NavBar />
                 <main>
                     <Container>
                         <Row className="mt-5">
@@ -32,7 +28,6 @@ function App() {
                 </main>
                 <Footer />
             </div>
-        </>
     )
 }
 
