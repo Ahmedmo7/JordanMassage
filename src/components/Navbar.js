@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 
 function NavBar() {
   return (
-    <Navbar bg="light" expand="lg" sticky="top" className="p-4">
+    <Navbar bg="light" expand="lg" sticky="top" className="py-3 px-5">
       <Navbar.Brand
         href="#home"
         className="d-flex flex-column justify-content-center"
