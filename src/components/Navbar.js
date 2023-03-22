@@ -4,9 +4,15 @@ import { Button } from "react-bootstrap";
 
 function NavBar() {
   return (
-    <Navbar bg="light" expand="lg" fixed="top" className="p-4">
-      <Navbar.Brand href="#home">
-        <img width="120" height="auto" src="logo.png" />
+    <Navbar bg="light" expand="lg" sticky="top" className="p-4">
+      <Navbar.Brand
+        href="#home"
+        className="d-flex flex-column justify-content-center"
+      >
+        <img width="120" height="auto" src="logo.png" className="mx-auto" />
+        <p className="mx-auto my-0 text p-2" style={{ fontSize: "1rem" }}>
+          <i>Jordan Brinsson</i>
+        </p>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto" />
 
