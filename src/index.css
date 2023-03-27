@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFDCCC;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn-dark {
+  background-color: #00A7E1;
+  border-color: #00A7E1;
+}
+
+.btn-dark:hover {
+  background-color: #048bb9;
+  border-color: #048bb9;
+}
+
+.navbar {
+  background-color: #f7c3ac;
+}
+
+.service-card {
+  background-color: #f7c3ac;
+}
+
+.bg-dark {
+  background-color: #2C363F;
 }
