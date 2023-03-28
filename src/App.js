@@ -11,7 +11,6 @@ function App() {
                     <Col md={7}>
                         <h1>Welcome to Jordan Brisson Massage Therapy</h1>
                         <h5>Your home, your haven.</h5>
-                        <br></br>
                         <p>
                             As a Registered Massage Therapist, my mission is to provide
                             relaxation, pain relief, and improved overall well-being for

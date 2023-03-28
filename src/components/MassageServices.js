@@ -2,10 +2,8 @@ import { Card, Row, Col } from "react-bootstrap";
 
 function MassageServices() {
     return (
-        <div>
-            <br />
+        <div className="py-5">
             <h2>Services Offered</h2>
-            <br />
             <Row>
                 <Col md={6} lg={6} className="p-3">
                     <Card className="h-100">
