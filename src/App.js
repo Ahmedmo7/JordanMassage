@@ -41,7 +41,7 @@ function App() {
                     </Col>
                     <Col md={5}>
                         <Image
-                            src="https://via.placeholder.com/500x500"
+                            src="/images/Table Setup.jpg"
                             alt="Massage photo"
                             fluid
                         />
