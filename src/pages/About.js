@@ -11,7 +11,7 @@ function About() {
             <Image
               src="/images/Outside.jpg"
               fluid
-              className="w-100"
+              className="w-100 rounded shadow"
             />
           </Col>
         </Row>
@@ -21,7 +21,7 @@ function About() {
             <Image
               src="/images/Hobbies.png"
               fluid
-              className="h-100"
+              className="h-100 rounded shadow"
             />
           </Col>
 

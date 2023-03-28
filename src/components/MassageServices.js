@@ -6,7 +6,7 @@ function MassageServices() {
             <h2>Services Offered</h2>
             <Row>
                 <Col md={6} lg={6} className="p-3">
-                    <Card className="h-100">
+                    <Card className="h-100 shadow-lg">
                         <Card.Img variant="top" src="/images/Deep Tissue Massage.jpg" />
                         <Card.Body className="service-card">
                             <Card.Title>Deep Tissue Massage</Card.Title>
@@ -17,7 +17,7 @@ function MassageServices() {
                     </Card>
                 </Col>
                 <Col md={6} lg={6} className="p-3">
-                    <Card className="h-100">
+                    <Card className="h-100 shadow-lg">
                         <Card.Img variant="top" src="/images/Relaxation.jpg" />
                         <Card.Body className="service-card">
                             <Card.Title>Relaxation Massage</Card.Title>
@@ -28,7 +28,7 @@ function MassageServices() {
                     </Card>
                 </Col>
                 <Col md={6} lg={6} className="p-3">
-                    <Card className="h-100">
+                    <Card className="h-100 shadow-lg">
                         <Card.Img variant="top" src="/images/Fascial Stretch Therapy.jpg" />
                         <Card.Body className="service-card">
                             <Card.Title>Fascial Stretch Therapy</Card.Title>
@@ -39,7 +39,7 @@ function MassageServices() {
                     </Card>
                 </Col>
                 <Col md={6} lg={6} className="p-3">
-                    <Card className="h-100">
+                    <Card className="h-100 shadow-lg">
                         <Card.Img variant="top" src="/images/Trigger Point Therapy.jpg" />
                         <Card.Body className="service-card">
                             <Card.Title>Trigger Point Therapy</Card.Title>

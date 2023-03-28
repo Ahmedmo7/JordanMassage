@@ -43,6 +43,7 @@ function App() {
                             src="/images/Table Setup.jpg"
                             alt="Massage photo"
                             fluid
+                            className="rounded shadow"
                         />
                     </Col>
                 </Row>
