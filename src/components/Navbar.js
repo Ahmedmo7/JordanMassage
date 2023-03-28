@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 
 function NavBar() {
     return (
-        <Navbar bg="light" expand="lg" sticky="top" className="py-3 px-5">
+        <Navbar expand="lg" sticky="top" className="py-3 px-5 shadow navbar">
             <Navbar.Brand
                 href="/"
                 className="d-flex flex-column justify-content-center"
@@ -18,13 +18,13 @@ function NavBar() {
 
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav.Link href="/" className="px-4 py-2 py-lg-0">
-                    Home
+                    <h5>Home</h5>
                 </Nav.Link>
                 <Nav.Link href="/about" className="px-4 py-2 py-lg-0">
-                    About
+                    <h5>About</h5>
                 </Nav.Link>
                 <Nav.Link href="/services" className="px-4 py-2 py-lg-0">
-                    Services
+                    <h5>Services</h5>
                 </Nav.Link>
 
                 <Button

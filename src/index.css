@@ -1,13 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lustria&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Lato',
+    serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #2C363F;
+  background-color: #E7E3D5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Lustria', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn-dark {
+  background-color: #607d8b;
+  border-color: #607d8b;
+}
+
+.btn-dark:hover {
+  background-color: #556e7b;
+  border-color: #556e7b;
+}
+
+.navbar {
+  background-color: #A7C3B5;
+}
+
+.service-card {
+  background-color: #A7C3B5;
+}
+
+.bg-dark {
+  background-color: #2C363F;
 }

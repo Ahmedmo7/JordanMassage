@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <footer className="bg-dark py-3 bottom-0 w-100">
+        <footer className="bg-dark py-4 bottom-0 w-100">
             <Container>
-                <Row className="align-items-center">
+                <Row className="">
                     <Col md="4">
                         <h5 className="text-white">Hours of Operation</h5>
                         <ul className="list-unstyled">

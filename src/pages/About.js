@@ -7,27 +7,19 @@ function About() {
       <Container className="p-5">
         <Row className="px-3 px-md-5 pb-3 pb-md-5">
           <Col className="d-flex flex-column align-items-center">
-            <h1>About Me</h1>
             <Image
-              src="https://via.placeholder.com/750x300"
+              src="/images/Outside.jpg"
               fluid
-              className="w-100"
+              className="w-100 rounded shadow"
             />
           </Col>
         </Row>
 
         <Row className="px-3 px-md-5">
-          <Col md={3} className="d-none d-md-block">
-            <Image
-              src="https://via.placeholder.com/250x500"
-              fluid
-              className="h-100"
-            />
-          </Col>
-
           <Col md={9}>
             <Row>
               <Col xs={12}>
+                <h1 className="pb-3">Jordan Brisson, RMT</h1>
                 <p>
                   As a Registered Massage Therapist, I have a strong foundation
                   in physical therapy, holistic health, and fitness. I completed
@@ -73,6 +65,14 @@ function About() {
                 </Button>
               </Col>
             </Row>
+          </Col>
+
+          <Col md={3} className="d-none d-md-block">
+            <Image
+              src="/images/Hobbies.png"
+              fluid
+              className="h-100 rounded shadow"
+            />
           </Col>
         </Row>
       </Container>
