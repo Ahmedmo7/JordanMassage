@@ -7,9 +7,9 @@ function About() {
       <Container className="p-5">
         <Row className="px-3 px-md-5 pb-3 pb-md-5">
           <Col className="d-flex flex-column align-items-center">
-            <h1>About Me</h1>
+            <h1 className="pb-3">About Me</h1>
             <Image
-              src="https://via.placeholder.com/750x300"
+              src="/images/Outside.jpg"
               fluid
               className="w-100"
             />
@@ -19,7 +19,7 @@ function About() {
         <Row className="px-3 px-md-5">
           <Col md={3} className="d-none d-md-block">
             <Image
-              src="https://via.placeholder.com/250x500"
+              src="/images/Hobbies.png"
               fluid
               className="h-100"
             />

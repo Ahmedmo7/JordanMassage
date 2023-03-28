@@ -5,9 +5,9 @@ import MassageServices from "./components/MassageServices";
 
 function App() {
     return (
-        <div>
+        <div className="p-5">
             <Container>
-                <Row className="mt-5">
+                <Row>
                     <Col md={7}>
                         <h1>Welcome to Jordan Brisson Massage Therapy</h1>
                         <h5>Your home, your haven.</h5>
