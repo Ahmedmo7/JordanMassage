@@ -24,7 +24,9 @@ function NavBar() {
     <Navbar
       expand="lg"
       fixed="top"
-      className={`py-3 px-5 ${scrolled ? "shadow navbar-scrolled" : "navbar"}`}
+      className={`py-3 px-2 px-md-5 ${
+        scrolled ? "shadow navbar-scrolled" : "navbar"
+      }`}
     >
       <Navbar.Brand
         href="#home"
@@ -46,7 +48,10 @@ function NavBar() {
           <i>Jordan Brisson, RMT</i>
         </p>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" className="ml-auto" />
+      <Navbar.Toggle
+        aria-controls="basic-navbar-nav"
+        className={`ml-auto ${scrolled ? "toggle-scrolled" : "toggle"}`}
+      />
 
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav.Link href="#home" className="px-4 py-2 py-lg-0">

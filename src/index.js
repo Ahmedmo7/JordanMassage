@@ -8,8 +8,6 @@ import "./index.css";
 import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
 import App from "./App";
-import About from "./pages/About";
-import Services from "./pages/Services";
 
 const router = createBrowserRouter([
   {

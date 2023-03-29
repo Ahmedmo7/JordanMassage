@@ -21,12 +21,13 @@ function Landing() {
         <Image
           src="/images/Deep Tissue Massage.jpg"
           fluid
-          className="w-100 rounded shadow"
+          className="h-100 w-100 rounded shadow"
+          style={{ objectFit: "cover" }}
           alt="Deep Tissue Massage"
         />
         <Carousel.Caption>
           <h3>Deep Tissue Massage</h3>
-          <p>
+          <p className="d-none d-md-block">
             Deep tissue massage involves slow, firm pressure and targets
             specific areas of tension and pain. The pressure used in a deep
             tissue massage can be intense and may cause discomfort or soreness
@@ -38,12 +39,13 @@ function Landing() {
         <Image
           src="/images/Relaxation.jpg"
           fluid
-          className="w-100 rounded shadow"
+          className="h-100 w-100 rounded shadow"
+          style={{ objectFit: "cover", objectPosition: "25% 0" }}
           alt="Relaxation"
         />
         <Carousel.Caption>
           <h3>Relaxation Massage</h3>
-          <p>
+          <p className="d-none d-md-block">
             Relaxation massage focuses on reducing stress in the body. It
             typically involves long, flowing strokes that are applied with light
             to moderate pressure, along with kneading, circular movements.
@@ -56,12 +58,13 @@ function Landing() {
         <Image
           src="/images/Fascial Stretch Therapy.jpg"
           fluid
-          className="w-100 rounded shadow"
+          className="h-100 w-100 rounded shadow"
+          style={{ objectFit: "cover", objectPosition: "25% 25%" }}
           alt="Fascial Stretch Therapy"
         />
         <Carousel.Caption>
           <h3>Fascial Stretch Therapy</h3>
-          <p>
+          <p className="d-none d-md-block">
             Fascial Stretch Therapy (FST) is a stretching technique that focuses
             on the fascia, a network of connective tissue that surrounds muscles
             and joints. The goal of FST is to improve mobility and movement
@@ -75,12 +78,13 @@ function Landing() {
         <Image
           src="/images/Trigger Point Therapy.jpg"
           fluid
-          className="w-100 rounded shadow"
+          className="h-100 w-100 rounded shadow"
+          style={{ objectFit: "cover" }}
           alt="Trigger Point Therapy"
         />
         <Carousel.Caption>
           <h3>Trigger Point Therapy</h3>
-          <p>
+          <p className="d-none d-md-block">
             Trigger point therapy focuses on relieving specific areas of pain
             and tension in the body known as trigger points or “knots”. Trigger
             points are hyperirritable spots in a tight band of muscle tissue

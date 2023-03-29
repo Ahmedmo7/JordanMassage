@@ -42,11 +42,11 @@ code {
   transition: background-color 300ms ease;
 }
 
-.logo {
+.logo, .toggle {
   filter: invert(1);
 }
 
-.logo-scrolled {
+.logo-scrolled, .toggle-scrolled {
   filter: invert(0);
 }
 
