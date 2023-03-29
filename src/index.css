@@ -29,8 +29,25 @@ code {
   border-color: #556e7b;
 }
 
+
 .navbar {
+  background-color: transparent;
+  color: white;
+  transition: background-color 300ms ease;
+}
+
+.navbar-scrolled {
   background-color: #A7C3B5;
+  color: black;
+  transition: background-color 300ms ease;
+}
+
+.logo {
+  filter: invert(1);
+}
+
+.logo-scrolled {
+  filter: invert(0);
 }
 
 .service-card {
