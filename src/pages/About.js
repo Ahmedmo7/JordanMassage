@@ -69,7 +69,7 @@ function About() {
 
           <Col md={3} className="d-none d-md-block">
             <Image
-              src="/images/Hobbies.png"
+              src="/images/hobbies.png"
               fluid
               className="h-100 rounded shadow"
             />
