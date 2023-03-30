@@ -1,7 +1,9 @@
 import React from "react";
 
 import { Container, Row, Col, Image, Button, Carousel } from "react-bootstrap";
+import CarouselContent from "./components/CarouselContent";
 import MassageServices from "./components/MassageServices";
+import SERVICE_INFO from "./copy";
 
 function App() {
   return (
@@ -17,83 +19,11 @@ function App() {
 function Landing() {
   return (
     <Carousel id="home" fade interval={3000}>
-      <Carousel.Item className="vh-100">
-        <Image
-          src="/images/Deep Tissue Massage.jpg"
-          fluid
-          className="h-100 w-100 rounded shadow"
-          style={{ objectFit: "cover" }}
-          alt="Deep Tissue Massage"
-        />
-        <Carousel.Caption>
-          <h3>Deep Tissue Massage</h3>
-          <p className="d-none d-md-block">
-            Deep tissue massage involves slow, firm pressure and targets
-            specific areas of tension and pain. The pressure used in a deep
-            tissue massage can be intense and may cause discomfort or soreness
-            during and after the massage.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item className="vh-100">
-        <Image
-          src="/images/Relaxation.jpg"
-          fluid
-          className="h-100 w-100 rounded shadow"
-          style={{ objectFit: "cover", objectPosition: "25% 0" }}
-          alt="Relaxation"
-        />
-        <Carousel.Caption>
-          <h3>Relaxation Massage</h3>
-          <p className="d-none d-md-block">
-            Relaxation massage focuses on reducing stress in the body. It
-            typically involves long, flowing strokes that are applied with light
-            to moderate pressure, along with kneading, circular movements.
-            Common areas targeted are the head, neck, shoulders, hands, ands
-            feet.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item className="vh-100">
-        <Image
-          src="/images/Fascial Stretch Therapy.jpg"
-          fluid
-          className="h-100 w-100 rounded shadow"
-          style={{ objectFit: "cover", objectPosition: "25% 25%" }}
-          alt="Fascial Stretch Therapy"
-        />
-        <Carousel.Caption>
-          <h3>Fascial Stretch Therapy</h3>
-          <p className="d-none d-md-block">
-            Fascial Stretch Therapy (FST) is a stretching technique that focuses
-            on the fascia, a network of connective tissue that surrounds muscles
-            and joints. The goal of FST is to improve mobility and movement
-            patterns. FST is often used to improve athletic performance and
-            reduce the risk of injury, but it can also be beneficial for
-            individuals with chronic pain.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item className="vh-100">
-        <Image
-          src="/images/Trigger Point Therapy.jpg"
-          fluid
-          className="h-100 w-100 rounded shadow"
-          style={{ objectFit: "cover" }}
-          alt="Trigger Point Therapy"
-        />
-        <Carousel.Caption>
-          <h3>Trigger Point Therapy</h3>
-          <p className="d-none d-md-block">
-            Trigger point therapy focuses on relieving specific areas of pain
-            and tension in the body known as trigger points or “knots”. Trigger
-            points are hyperirritable spots in a tight band of muscle tissue
-            that can cause discomfort, limited mobility, and/or headaches. The
-            pressure is usually applied in a gradual and sustained manner and
-            may cause some discomfort or pain as the trigger point releases.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
+      {SERVICE_INFO.map((service) => (
+        <Carousel.Item className="vh-100" key={service.title}>
+          <CarouselContent {...service} />
+        </Carousel.Item>
+      ))}
     </Carousel>
   );
 }
@@ -102,7 +32,7 @@ function Home() {
   return (
     <Container className="py-5">
       <Row>
-        <Col md={7}>
+        <Col lg={7}>
           <h1>Jordan Brisson Mobile Massage Therapy</h1>
           <h4 style={{ fontStyle: "italic" }}>Your home, your haven.</h4>
           <p>
@@ -131,14 +61,36 @@ function Home() {
             cold pressed hemp seed oil harvested in Canada, and the linens used
             on the massage bed are 100% cotton.
           </p>
+          <div className="d-none d-lg-flex py-2">
+            <Button
+              size="lg"
+              className="mx-auto"
+              variant="dark"
+              href="https://www.picktime.com/mobile"
+              target="_blank"
+            >
+              Schedule an Appointment Now
+            </Button>
+          </div>
         </Col>
-        <Col md={5}>
+        <Col lg={5}>
           <Image
             src="/images/Table Setup.jpg"
             alt="Massage photo"
             fluid
             className="rounded shadow"
           />
+          <div className="d-flex d-lg-none pt-4">
+            <Button
+              size="lg"
+              className="mx-auto"
+              variant="dark"
+              href="https://www.picktime.com/mobile"
+              target="_blank"
+            >
+              Schedule an Appointment Now
+            </Button>
+          </div>
         </Col>
       </Row>
     </Container>
@@ -147,7 +99,7 @@ function Home() {
 
 function About() {
   return (
-    <Container className="py-5" id="about">
+    <Container className="pt-3" id="about">
       <Row className="pb-3 pb-md-5">
         <h1 className="pb-3">About Jordan</h1>
         <Col className="d-flex flex-column align-items-center">
