@@ -29,7 +29,7 @@ function NavBar() {
       }`}
     >
       <Navbar.Brand
-        href="#home"
+        href="#"
         className="d-flex flex-column justify-content-center"
       >
         <img

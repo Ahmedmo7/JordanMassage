@@ -18,7 +18,7 @@ function App() {
 
 function Landing() {
   return (
-    <Carousel id="home" fade interval={3000}>
+    <Carousel id="" as="section" fade interval={3000}>
       {SERVICE_INFO.map((service) => (
         <Carousel.Item className="vh-100" key={service.title}>
           <CarouselContent {...service} />
@@ -30,7 +30,7 @@ function Landing() {
 
 function Home() {
   return (
-    <Container className="py-5">
+    <Container className="py-5" id="home" as="section">
       <Row>
         <Col lg={7}>
           <h1>Jordan Brisson Mobile Massage Therapy</h1>
@@ -99,7 +99,7 @@ function Home() {
 
 function About() {
   return (
-    <Container className="pt-3" id="about">
+    <Container className="pt-4" id="about" as="section">
       <Row className="pb-3 pb-md-5">
         <h1 className="pb-3">About Jordan</h1>
         <Col className="d-flex flex-column align-items-center">
@@ -176,7 +176,7 @@ function About() {
 
 function Services() {
   return (
-    <Container id="services">
+    <Container id="services" as="section">
       <MassageServices />
     </Container>
   );
