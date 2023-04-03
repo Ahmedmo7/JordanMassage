@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Lustria&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Lato',
@@ -19,6 +23,10 @@ code {
     monospace;
 }
 
+section {
+  scroll-margin-top: 100px;
+}
+
 .btn-dark {
   background-color: #607d8b;
   border-color: #607d8b;
@@ -29,8 +37,25 @@ code {
   border-color: #556e7b;
 }
 
+
 .navbar {
+  background-color: transparent;
+  color: white;
+  transition: background-color 300ms ease;
+}
+
+.navbar-scrolled {
   background-color: #A7C3B5;
+  color: black;
+  transition: background-color 300ms ease;
+}
+
+.logo, .toggle {
+  filter: invert(1);
+}
+
+.logo-scrolled, .toggle-scrolled {
+  filter: invert(0);
 }
 
 .service-card {
