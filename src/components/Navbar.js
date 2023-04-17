@@ -30,7 +30,7 @@ function NavBar() {
                 <Button
                     className="d-lg-none w-100 my-2"
                     variant="dark"
-                    href="https://www.picktime.com/mobile"
+                    href="https://jordan.noterro.com/"
                     target="_blank"
                 >
                     Book Now
@@ -40,7 +40,7 @@ function NavBar() {
             <Button
                 className="ml-auto d-none d-lg-block"
                 variant="dark"
-                href="https://www.picktime.com/mobile"
+                href="https://jordan.noterro.com/"
                 target="_blank"
             >
                 Book Now

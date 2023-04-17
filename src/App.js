@@ -37,6 +37,8 @@ function App() {
                             is cold pressed hemp seed oil harvested in Canada, and the linens
                             used on the massage bed are 100% cotton.
                         </p>
+                        <br />
+                        <i><h3>Direct billing is now offered for most insurance companies</h3></i>
                     </Col>
                     <Col md={5}>
                         <Image

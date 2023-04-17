@@ -58,7 +58,7 @@ function About() {
                   size="lg"
                   className="mx-auto"
                   variant="dark"
-                  href="https://www.picktime.com/mobile"
+                  href="https://jordan.noterro.com/"
                   target="_blank"
                 >
                   Schedule an Appointment Now
