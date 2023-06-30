@@ -8,6 +8,20 @@ function App() {
         <div className="p-5">
             <Container>
                 <Row>
+                    <Col
+                        justify_content={"center"}
+                        md={5}
+                    >
+                        <Image
+                            src="/images/Table Setup.jpg"
+                            alt="Massage photo"
+                            fluid
+                            className="rounded shadow"
+                        />
+                    </Col>
+                    <br />
+                    <br />
+                    <br />
                     <Col md={7}>
                         <h1>Jordan Brisson Mobile Massage Therapy</h1>
                         <h4 style={{ fontStyle: "italic" }}>Your home, your haven.</h4>
@@ -39,14 +53,6 @@ function App() {
                         </p>
                         <br />
                         <i><h3>Direct billing is now offered for most insurance companies</h3></i>
-                    </Col>
-                    <Col md={5}>
-                        <Image
-                            src="/images/Table Setup.jpg"
-                            alt="Massage photo"
-                            fluid
-                            className="rounded shadow"
-                        />
                     </Col>
                 </Row>
             </Container>
