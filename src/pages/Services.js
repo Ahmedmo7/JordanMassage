@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Carousel, Image, Button } from 'react-bootstrap';
+import "../carouselcomponent.css";
 
 function Services() {
     return (
@@ -9,7 +10,7 @@ function Services() {
                     <h1>Our Services</h1>
                 </Col>
             </Row>
-            <Row className="my-4">
+            <Row className="my-5">
                 <Col>
                     <Carousel fade interval={3000}>
                         <Carousel.Item>
