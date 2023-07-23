@@ -1,0 +1,32 @@
+/* App.css */
+@media (max-width: 767px) {
+    /* Styles for mobile layout */
+    .mobile-title {
+      text-align: center;
+    }
+  
+    .mobile-title + h4 {
+      text-align: center;
+    }
+  
+    .mobile-title + h4 + p {
+      text-align: left;
+    }
+  
+    .mobile-title + h4 + p + p {
+      text-align: left;
+    }
+  
+    .mobile-title + h4 + p + p + p {
+      text-align: left;
+    }
+  
+    .mobile-title + h4 + p + p + p + br + i {
+      text-align: left;
+    }
+  
+    .mobile-title + h4 + p + p + p + br + i + h3 {
+      text-align: left;
+    }
+  }
+  
