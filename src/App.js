@@ -32,7 +32,7 @@ function App() {
                     {/* On larger screens, show the image on the left */}
                     <Col md={5}>
                         <Image
-                            src="/images/Table Setup.jpg"
+                            src="/images/Outside.jpg"
                             alt="Massage photo"
                             fluid
                             className={`rounded shadow ${isMobile ? "mb-4" : ""}`}
