@@ -29,4 +29,20 @@
       text-align: left;
     }
   }
+
+  .intro-image {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Soften the corners */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.intro-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover for a dynamic effect */
+}
+
+@media (min-width: 768px) {
+    .intro-image {
+        margin-right: 20px; /* Add some space between the image and text on larger screens */
+    }
+}
   

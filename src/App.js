@@ -31,11 +31,14 @@ function App() {
                     )}
                     {/* On larger screens, show the image on the left */}
                     <Col md={5}>
+                        <br></br>
+                        <br></br>
+                        <br></br>
                         <Image
-                            src="/images/Outside.jpg"
-                            alt="Massage photo"
+                            src="/images/Outside1.jpg"
+                            alt="Photo of "
                             fluid
-                            className={`rounded shadow ${isMobile ? "mb-4" : ""}`}
+                            className={`rounded shadow intro-image ${isMobile ? "mb-4" : ""}`}
                         />
                     </Col>
                     {/* On larger screens, show the title and content on the right */}
@@ -43,24 +46,24 @@ function App() {
                         {!isMobile && (
                             <div className="d-none d-md-block">
                                 <h1>Jordan Brisson Mobile Massage Therapy</h1>
-                                <h4 style={{ fontStyle: "italic" }}>Your home, your haven.</h4>
+                                <center><h4 style={{ fontStyle: "italic" }}>Your home, your haven.</h4></center>
+                                <br></br>
                             </div>
                         )}
                         {/* The rest of the content */}
                         <p>
-                            As a Registered Massage Therapist, my mission is to provide relaxation, pain relief, and improved overall well-being for those who have mobility issues or simply enjoy the convenience of in-home massage. I strive to ensure that every client feels comfortable, safe, and respected during their massage session.
-                        </p>
+                            As a <strong>Registered Massage Therapist</strong>, I strive to deliver an exceptional massage that targets your unique needs. Whether you are an athlete, an office worker, a person who lacks mobility, or someone who needs to destress, your massage and treatment plan will be <strong>designed for you.</strong>                         </p>
                         <p>
                             As a massage therapist, the most important tool at my disposal is the power of listening. Understanding my client and their goals, assessing their needs, and applying manual therapies all require listening, whether it be with my ears or with my hands.
                         </p>
                         <p>
-                            Aside from listening, there are various ways I aim to help my clients. I provide deep tissue massage, trigger point therapy, and Fascial Stretch Therapy, but I also understand the importance of relaxation and its profound effect on improving physical and emotional health.
+                            I offer various massage techniques, including Swedish, deep tissue, fascial massage, stretch therapy (LVL 1 FST), trigger point therapy, lymphatic drainage, and more! I bring the massage table and linens, <strong>so all you need is an open space.</strong>
                         </p>
                         <p>
-                            Lastly, I believe in using high-quality, natural products that are good for you and the environment. The massage oil I currently use is cold-pressed hemp seed oil harvested in Canada, and the linens used on the massage bed are 100% cotton.
+                            Booking online is easy and convenient, but for those who prefer, booking can also be done by call or text.
                         </p>
                         <br />
-                        <i><h3>Direct billing is now offered for most insurance companies</h3></i>
+                        <center><strong><i><h3>Direct billing is now offered for most insurance companies</h3></i></strong></center>
                         <Button
                             className="d-lg-none w-100 my-2"
                             variant="dark"
